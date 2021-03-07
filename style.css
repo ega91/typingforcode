@@ -5,6 +5,14 @@
 	background: #FF15
 }
 
+header{
+	background-color: skyblue;
+}
+
+footer{
+	background-color: skyblue;
+}
+
 div {
 	border: thin dotted gray;
 }
@@ -16,22 +24,36 @@ nav {
 	font-style: italic;
 }
 
+article{
+	line-height: 2.1;
+}
+
+
 .a{
 	color: blue;
 	width: 36%;
 	float: left;
+	text-shadow: 4px 4px 3px #77f;
 }
 
 .b {
 	color: red;
 	width: 32%;
 	float: left;
+	text-shadow: 4px 4px 3px #80e;
 }
 
 .c {
 	color: gray;
 	width: 32%;
 	float: right;
+	text-shadow: 4px 4px 3px #88d;
+}
+
+.first-article::first-letter{
+	font-size: 32px;
+	font-weight: bold;
+	color: saddlebrown;
 }
 
 #main{
