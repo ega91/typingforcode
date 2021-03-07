@@ -2,7 +2,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	background: #FF15
+	background: #FF15;
+	cursor: pointer;
 }
 
 header{
@@ -28,26 +29,55 @@ article{
 	line-height: 2.1;
 }
 
+h4{
+		color: black;
+	}
 
-.a{
-	color: blue;
-	width: 36%;
-	float: left;
-	text-shadow: 4px 4px 3px #77f;
+.header-style{
+	padding: 32px;
+	position: relative;
 }
 
-.b {
-	color: red;
-	width: 32%;
-	float: left;
-	text-shadow: 4px 4px 3px #80e;
+.main-style{
+	position:relative; 
 }
 
-.c {
-	color: gray;
-	width: 32%;
-	float: right;
-	text-shadow: 4px 4px 3px #88d;
+.content-style{
+	position: relative;
+	padding: 17px;
+}
+
+.preview-style{
+	padding: 11px;
+	position: relative;
+}
+
+.footer-style{
+	padding: 11px;
+	position: relative;
+}
+
+@media screen  and (min-width: 1000px){
+	.a{
+		color: blue;
+		width: 36%;
+		float: left;
+		text-shadow: 4px 4px 3px #77f;
+	}
+
+	.b {
+		color: red;
+		width: 32%;
+		float: left;
+		text-shadow: 4px 4px 3px #80e;
+	}
+
+	.c {
+		color: gray;
+		width: 32%;
+		float: right;
+		text-shadow: 4px 4px 3px #88d;
+	}
 }
 
 .first-article::first-letter{
@@ -62,20 +92,20 @@ article{
 }
 
 #content{
-	width: 64%;
-	height: 630px;
+	width: 68%;
+	height: 600px;
 	float: left;
 }
 
 #preview{
-	width: 36%;
-	height: 630px;
+	width: 32%;
+	height: 600px;
 	float: right;
 }
 
 #footer{
 	width: 100%;
-	height: 72px;
+	height: 43px;
 	float: left;
 }
 
