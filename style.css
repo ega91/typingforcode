@@ -47,6 +47,24 @@ h4{
 	padding: 17px;
 }
 
+.interest-style{
+	padding: 3.2px;
+	position: relative;
+	background-color: grey;
+}
+
+.skill-style{
+	padding: 3.2px;
+	position: relative;
+	background-color: grey;
+}
+
+.contact-style{
+	padding: 3.2px;
+	position: relative;
+	background-color: grey;
+}
+
 .preview-style{
 	padding: 11px;
 	position: relative;
@@ -78,6 +96,64 @@ h4{
 		float: right;
 		text-shadow: 4px 4px 3px #88d;
 	}
+}
+
+/*Pengaturan Grid unuk daftar interest*/
+.interest1{
+	width: 26%;
+}
+
+.interest2{
+	width: 26%;
+}
+
+.interest3{
+	width: 26%;
+}
+
+/*Pengaturan Grid unuk daftar skill*/
+.skill1{
+	width: 10%;
+}
+
+.skill2{
+	width: 10%;
+}
+
+.skill3{
+	width: 10%;
+}
+.skill4{
+	width: 10%;
+}
+
+.skill5{
+	width: 10%;
+}
+
+.skill6{
+	width: 10%;
+}
+.skill7{
+	width: 10%;
+}
+
+.skill8{
+	width: 10%;
+}
+
+/* Pengaturan grid untuk contact */
+
+.contact1{
+	line-height: 1.1;
+}
+
+.contact2{
+	line-height: 1.1;
+}
+
+.contact3{
+	line-height: 1.1;
 }
 
 .first-article::first-letter{
