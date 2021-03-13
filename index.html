@@ -23,9 +23,8 @@
 		<div id="container" class="main-container" width='100%' height='100%'>
 			<div id="main" class="main-style" width='100%' height= 'auto'>
 				<main id="main-style" class="main-class">
-					<form>
-						<input type="text" id="codetype" name="typer" size="67"placeholder="What do you want to know? [Interest | Skill | Contact ]"><input type="submit" name="typed" value="Run">
-					</form>
+						<input type="text" id="codetype" name="typer" size="67"placeholder="What do you want to know? [Interest | Skill | Contact ] >> Type your code here!">
+						<input type="submit" name="typed" value="Run" onclick="execute_typer(codetype)">
 				</main>
 				<div id="content" class="content-style">
 					<article id="box" class="first-article">Hello World! Introducing,I'm Galihwara, I'am familiarly callled Ega. I am the only child that born in a tiny hut in capital city, growing,evolute and raised there with my mother to fight across the ocean life.Coding is my flagship weapon as a typing skill that i always use to pursuit my passion to can reach my dream.</article>
@@ -35,7 +34,7 @@
 					</button>
 					
 
-					<article class="dropdown-container">
+					<article id="interest-info" class="dropdown-container">
 						<table id="box">
 							<tr align="center">
 								<td class="interest1"><img width="64px" height="64px" src="https://icons-for-free.com/iconfiles/png/512/device+game+gamepad+games+joystick+remote+icon-1320161866313449218.png">
@@ -52,7 +51,7 @@
 						<h1 class="skill-style">Skill<i id="icon2" class="fa fa-caret-down"></i></h1>
 					</button>
 
-					<article class="dropdown-container">
+					<article id="skill-info" class="dropdown-container">
 						<table id="box">
 							<tr align="center">
 								<td class="skill1"><img class="image-skill" width="64px" height="64px" src="https://community.makeroid.io/uploads/default/original/1X/e3a04ee5655c76965461893d8d1f6dd64333df0d.png?v=5"></td>
@@ -72,7 +71,7 @@
 							"></i></h1>
 					</button>
 
-					<article class="dropdown-container">
+					<article id="contact-info" class="dropdown-container">
 						<table id="box">
 							<tr align="center">
 								<td class="contact1"><img width="32px" height="32px" src="https://www.shareicon.net/data/512x512/2015/11/17/673369_man_512x512.png">&nbsp 08999089143</td>
