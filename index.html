@@ -8,10 +8,10 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
 	<body>
-		<script type="text/javascript" src="script.js"></script>
 		<div id="container" class="header-container">
 			<div id="box" class="header-style">
 				<header align="center">
@@ -25,9 +25,12 @@
 				<div id="content" class="content-style">
 					<article id="box" class="first-article">Hello World! Introducing,I'm Galihwara, I'am familiarly callled Ega. I am the only child that born in a tiny hut in capital city, growing,evolute and raised there with my mother to fight across the ocean life.Coding is my flagship weapon as a typing skill that i always use to pursuit my passion to can reach my dream.</article>
 
-					<h1 class="interest-style">Interest</h1>
+					<button class="dropdown-btn" onclick="changeIconInterest()">
+						<h1 class="interest-style">Interest<i id="icon1" class="fa fa-caret-up"></i></h1>
+					</button>
+					
 
-					<article>
+					<article class="dropdown-container">
 						<table id="box">
 							<tr align="center">
 								<td class="interest1"><img width="64px" height="64px" src="https://icons-for-free.com/iconfiles/png/512/device+game+gamepad+games+joystick+remote+icon-1320161866313449218.png">
@@ -40,9 +43,11 @@
 						</table>
 					</article>
 
-					<h1 class="skill-style">Skill</h1>
+					<button class="dropdown-btn" onclick="changeIconSkill()">
+						<h1 class="skill-style">Skill<i id="icon2" class="fa fa-caret-up"></i></h1>
+					</button>
 
-					<article>
+					<article class="dropdown-container">
 						<table id="box">
 							<tr align="center">
 								<td class="skill1"><img class="image-skill" width="64px" height="64px" src="https://community.makeroid.io/uploads/default/original/1X/e3a04ee5655c76965461893d8d1f6dd64333df0d.png?v=5"></td>
@@ -57,9 +62,11 @@
 						</table>
 					</article>
 
-					<h1 class="contact-style">Contact me</h1>
+					<button class="dropdown-btn" onclick="changeIconContact()">
+						<h1 class="contact-style">Contact me<i id="icon3" class="fa fa-caret-up"></i></h1>
+					</button>
 
-					<article>
+					<article class="dropdown-container">
 						<table id="box">
 							<tr align="center">
 								<td class="contact1"><img width="32px" height="32px" src="https://www.shareicon.net/data/512x512/2015/11/17/673369_man_512x512.png">&nbsp 08999089143</td>
@@ -87,5 +94,6 @@
 				<footer align="center" class="footer-style" ><b>&copy 2021. Warastory. </b></footer>
 			</div>
 		</div>
+		<script type="text/javascript" src="script.js"></script>
 	</body>
 </html>

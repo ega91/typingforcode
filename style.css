@@ -21,7 +21,7 @@ div {
 nav {
 	height: 76px;
 	font-size: 32pt;
-	color: #e6aF00;
+	color: #9B5151;
 	font-style: italic;
 	padding-top: 3.2px;
 }
@@ -130,34 +130,36 @@ h4{
 .interest-style{
 	padding: 3.2px;
 	position: relative;
-	background-color: grey;
+	background-color: #9B5151;
 	border: 2px solid black;
 	padding: 4px;
 	border-radius: 10px;
 	margin: 0 auto;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 .skill-style{
 	padding: 3.2px;
 	position: relative;
-	background-color: grey;
+	background-color: #9B5151;
 	border: 2px solid black;
 	padding: 4px;
 	border-radius: 10px;
 	margin: 0 auto;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 .contact-style{
-	width: 100%;
 	padding: 3.2px;
 	position: relative;
-	background-color: grey;
+	background-color: #9B5151;
 	border: 2px solid black;
 	border-radius: 10px;
 	margin: 0 auto;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 .preview-style{
@@ -320,4 +322,29 @@ h4{
 	font-family: 'Marck Script', cursive;
 	font-size: 21pt;
 	color: #00e6aF;
+}
+
+.dropdown-btn{
+	display: flex;
+	cursor: pointer;
+	position: relative;
+	background-color: #E97878;
+	padding: 4px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.dropdown-container{
+	display: flex;
+	background-color: transparent; 
+}
+
+.fa-caret-down{
+	float: right;
+	padding-right: 8px;
+}
+
+.fa-caret-up{
+	float: right;
+	padding-right: 8px;
 }
