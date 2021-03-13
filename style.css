@@ -349,7 +349,7 @@ h4{
 }
 
 .dropdown-container{
-	display: flex;
+	display: none;
 	background-color: transparent; 
 }
 
