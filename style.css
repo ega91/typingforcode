@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	background: #FF15;
+	/*background: #FF15;*/
 	cursor: pointer;
 }
 
@@ -28,6 +28,11 @@ nav {
 
 article{
 	line-height: 2.1;
+	border: 2px solid black;
+	padding: 4px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 h4{
@@ -36,11 +41,10 @@ h4{
 
 #container{
 	display: flex;
-
 	/* properti */
 /*	width: 1425px;
 	height: 789px;*/
-	width: auto;
+	width: 100%;
 	background-color: #FF15;
 	border: 2px solid black;
 	padding: 4px;
@@ -48,16 +52,17 @@ h4{
 	margin: 0 auto;
 	box-sizing: border-box;
 	cursor: pointer;
+	max-height: auto;
+	min-width: 570px;
 }
 
 #box{
 	flex-grow: 1;
- 
-           /* properti */
-           background-color: #FBDD1C;
-           margin: 5px;
-           border: 2px solid black;
-           border-radius: 10px;
+    /* properti */
+    background-color: #FBDD1C;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .header-container{
@@ -67,12 +72,37 @@ h4{
 	background-color: #e6aF00;
 }
 
-.main-container{
-	display: flex;
-	width: 100%;
-	min-height:669px;
-	max-height: auto;
-	background-color: #e6aF00;
+@media screen  and (max-height: 789px){
+	.main-container{
+		display: flex;
+		width: 100%;
+		min-height:669px;
+		max-height: auto;
+		background-color: #e6aF00;
+		position: relative;
+	}
+}
+
+@media screen  and (max-width: 1274px){
+	.main-container{
+		display: flex;
+		width: 100%;
+		min-height:800px;
+		max-height: auto;
+		background-color: #e6aF00;
+		position: relative;
+	}
+}
+
+@media screen  and (max-width: 815px){
+	.main-container{
+		display: flex;
+		width: 100%;
+		min-height:1000px;
+		max-height: auto;
+		background-color: #e6aF00;
+		position: relative;
+	}
 }
 
 .footer-container{
@@ -80,6 +110,7 @@ h4{
 	width: 100%;
 	height: 32px;
 	background-color: #e6aF00;
+	position: relative;
 }
 
 .header-style{
@@ -100,18 +131,33 @@ h4{
 	padding: 3.2px;
 	position: relative;
 	background-color: grey;
+	border: 2px solid black;
+	padding: 4px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .skill-style{
 	padding: 3.2px;
 	position: relative;
 	background-color: grey;
+	border: 2px solid black;
+	padding: 4px;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .contact-style{
+	width: 100%;
 	padding: 3.2px;
 	position: relative;
 	background-color: grey;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .preview-style{
@@ -123,6 +169,7 @@ h4{
 	padding: 2px;
 	position: relative;
 	color: #e6aF00;
+	background-color: #FBDD1C;
 }
 
 @media screen  and (min-width: 1000px){
@@ -151,88 +198,122 @@ h4{
 /*Pengaturan Grid unuk daftar interest*/
 .interest1{
 	width: 26%;
+	position: relative;
 }
 
 .interest2{
 	width: 26%;
+	position: relative;
 }
 
 .interest3{
 	width: 26%;
+	position: relative;
 }
 
 /*Pengaturan Grid unuk daftar skill*/
 .skill1{
 	width: 10%;
+	position: relative;
+
 }
 
 .skill2{
 	width: 10%;
+	position: relative;
 }
 
 .skill3{
 	width: 10%;
+	position: relative;
 }
 .skill4{
 	width: 10%;
+	position: relative;
 }
 
 .skill5{
 	width: 10%;
+	position: relative;
 }
 
 .skill6{
 	width: 10%;
+	position: relative;
 }
 .skill7{
 	width: 10%;
+	position: relative;
 }
 
 .skill8{
 	width: 10%;
+	position: relative;
+}
+
+@media screen  and (max-width: 1020px){
+	.image-skill{
+		width: 32px;
+		height: 32px;
+	}
+
 }
 
 /* Pengaturan grid untuk contact */
 
 .contact1{
-	line-height: 1.1;
+	width: 20%;
+	position: relative;
 }
 
 .contact2{
-	line-height: 1.1;
+	width: 20%;
+	position: relative;
 }
 
 .contact3{
-	line-height: 1.1;
+	width: 20%;
+	position: relative;
 }
 
 .first-article::first-letter{
 	font-size: 32px;
 	font-weight: bold;
 	color: saddlebrown;
+	position: relative;
+
 }
 
 #main{
 	width: 100%;
 	height: auto;
+	position: relative;
 }
 
 #content{
 	width: 68%;
 	height: 600px;
 	float: left;
+	position: relative;
 }
 
 #preview{
 	width: 32%;
 	height: 600px;
 	float: right;
+	display: flex;
+	background-color: #e6aF00;
+	border-radius: 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	position: relative;
 }
 
 #footer{
 	width: 100%;
 	height: auto;
 	float: left;
+	position: relative;
 }
 
 #fig{
